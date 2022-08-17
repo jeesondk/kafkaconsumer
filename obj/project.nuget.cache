@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "TyKkjsc6vUEjEC21tyL9jaAFYeENai1nRsah65hNqhZbFrn7jx+ADh/5MZiKZv5vt9A6ZiyvqWj0c+lLh0UBsA==",
+  "success": true,
+  "projectFilePath": "D:\\src\\CSharp\\kafka\\KafkaConsumer\\KafkaConsumer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jeeso\\.nuget\\packages\\confluent.kafka\\1.8.0\\confluent.kafka.1.8.0.nupkg.sha512",
+    "C:\\Users\\jeeso\\.nuget\\packages\\librdkafka.redist\\1.8.0\\librdkafka.redist.1.8.0.nupkg.sha512",
+    "C:\\Users\\jeeso\\.nuget\\packages\\protobuf\\2.6.1.1\\protobuf.2.6.1.1.nupkg.sha512",
+    "C:\\Users\\jeeso\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

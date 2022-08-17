@@ -1,0 +1,430 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Confluent.Kafka/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.0",
+          "librdkafka.redist": "1.8.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.1/Confluent.Kafka.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Confluent.Kafka.dll": {}
+        }
+      },
+      "librdkafka.redist/1.8.0": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/librdkafka.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/alpine-librdkafka.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/centos6-librdkafka.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/centos7-librdkafka.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/librdkafka.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/librdkafka.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/libcrypto-1_1-x64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/librdkafka.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/librdkafkacpp.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libssl-1_1-x64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/msvcp140.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/vcruntime140.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zlib1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zstd.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libcrypto-1_1.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/librdkafka.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/librdkafkacpp.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libssl-1_1.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/msvcp140.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/vcruntime140.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/zlib1.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/zstd.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "protobuf/2.6.1.1": {
+        "type": "package"
+      },
+      "System.Memory/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Confluent.Kafka/1.8.0": {
+      "sha512": "jEAu8shJsjzCniUsP4tyRpIJ4UMYssgVeD99C2fuGj0Gt5D96vhFbtHLveKZmbr1fXaSYsovGM8P/MeB2lewUA==",
+      "type": "package",
+      "path": "confluent.kafka/1.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "confluent.kafka.1.8.0.nupkg.sha512",
+        "confluent.kafka.nuspec",
+        "lib/net45/Confluent.Kafka.dll",
+        "lib/net45/Confluent.Kafka.xml",
+        "lib/net46/Confluent.Kafka.dll",
+        "lib/net46/Confluent.Kafka.xml",
+        "lib/netcoreapp2.1/Confluent.Kafka.dll",
+        "lib/netcoreapp2.1/Confluent.Kafka.xml",
+        "lib/netstandard1.3/Confluent.Kafka.dll",
+        "lib/netstandard1.3/Confluent.Kafka.xml",
+        "lib/netstandard2.0/Confluent.Kafka.dll",
+        "lib/netstandard2.0/Confluent.Kafka.xml"
+      ]
+    },
+    "librdkafka.redist/1.8.0": {
+      "sha512": "dOBw/q6klTYpiR6C193DZgCpR68+gbGUwYX88aYipZOkw0tymcuk+NnhM4dGj5PuXke7I/pkN6mrd6vuMN7X0Q==",
+      "type": "package",
+      "path": "librdkafka.redist/1.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CONFIGURATION.md",
+        "LICENSES.txt",
+        "README.md",
+        "build/librdkafka.redist.props",
+        "build/native/include/librdkafka/rdkafka.h",
+        "build/native/include/librdkafka/rdkafka_mock.h",
+        "build/native/include/librdkafka/rdkafkacpp.h",
+        "build/native/lib/win/x64/win-x64-Release/v140/librdkafka.lib",
+        "build/native/lib/win/x64/win-x64-Release/v140/librdkafkacpp.lib",
+        "build/native/lib/win/x86/win-x86-Release/v140/librdkafka.lib",
+        "build/native/lib/win/x86/win-x86-Release/v140/librdkafkacpp.lib",
+        "build/native/librdkafka.redist.targets",
+        "librdkafka.redist.1.8.0.nupkg.sha512",
+        "librdkafka.redist.nuspec",
+        "runtimes/linux-arm64/native/librdkafka.so",
+        "runtimes/linux-x64/native/alpine-librdkafka.so",
+        "runtimes/linux-x64/native/centos6-librdkafka.so",
+        "runtimes/linux-x64/native/centos7-librdkafka.so",
+        "runtimes/linux-x64/native/librdkafka.so",
+        "runtimes/osx-x64/native/librdkafka.dylib",
+        "runtimes/win-x64/native/libcrypto-1_1-x64.dll",
+        "runtimes/win-x64/native/librdkafka.dll",
+        "runtimes/win-x64/native/librdkafkacpp.dll",
+        "runtimes/win-x64/native/libssl-1_1-x64.dll",
+        "runtimes/win-x64/native/msvcp140.dll",
+        "runtimes/win-x64/native/vcruntime140.dll",
+        "runtimes/win-x64/native/zlib1.dll",
+        "runtimes/win-x64/native/zstd.dll",
+        "runtimes/win-x86/native/libcrypto-1_1.dll",
+        "runtimes/win-x86/native/librdkafka.dll",
+        "runtimes/win-x86/native/librdkafkacpp.dll",
+        "runtimes/win-x86/native/libssl-1_1.dll",
+        "runtimes/win-x86/native/msvcp140.dll",
+        "runtimes/win-x86/native/vcruntime140.dll",
+        "runtimes/win-x86/native/zlib1.dll",
+        "runtimes/win-x86/native/zstd.dll"
+      ]
+    },
+    "protobuf/2.6.1.1": {
+      "sha512": "4nR8C+GWm3paVn9MczwpqxB3BcvTjqQv8QCxnrGRPh4S3Vnv/SdtVm2JzebUgxDbawIpPbUzrGOmxggh06pP2g==",
+      "type": "package",
+      "path": "protobuf/2.6.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/configurations.autopkg",
+        "build/native/default-propertiesui.xml",
+        "build/native/include/google/protobuf/compiler/code_generator.h",
+        "build/native/include/google/protobuf/compiler/command_line_interface.h",
+        "build/native/include/google/protobuf/compiler/cpp/cpp_enum.h",
+        "build/native/include/google/protobuf/compiler/cpp/cpp_enum_field.h",
+        "build/native/include/google/protobuf/compiler/cpp/cpp_extension.h",
+        "build/native/include/google/protobuf/compiler/cpp/cpp_field.h",
+        "build/native/include/google/protobuf/compiler/cpp/cpp_file.h",
+        "build/native/include/google/protobuf/compiler/cpp/cpp_generator.h",
+        "build/native/include/google/protobuf/compiler/cpp/cpp_helpers.h",
+        "build/native/include/google/protobuf/compiler/cpp/cpp_message.h",
+        "build/native/include/google/protobuf/compiler/cpp/cpp_message_field.h",
+        "build/native/include/google/protobuf/compiler/cpp/cpp_options.h",
+        "build/native/include/google/protobuf/compiler/cpp/cpp_primitive_field.h",
+        "build/native/include/google/protobuf/compiler/cpp/cpp_service.h",
+        "build/native/include/google/protobuf/compiler/cpp/cpp_string_field.h",
+        "build/native/include/google/protobuf/compiler/cpp/cpp_unittest.h",
+        "build/native/include/google/protobuf/compiler/importer.h",
+        "build/native/include/google/protobuf/compiler/java/java_context.h",
+        "build/native/include/google/protobuf/compiler/java/java_doc_comment.h",
+        "build/native/include/google/protobuf/compiler/java/java_enum.h",
+        "build/native/include/google/protobuf/compiler/java/java_enum_field.h",
+        "build/native/include/google/protobuf/compiler/java/java_extension.h",
+        "build/native/include/google/protobuf/compiler/java/java_field.h",
+        "build/native/include/google/protobuf/compiler/java/java_file.h",
+        "build/native/include/google/protobuf/compiler/java/java_generator.h",
+        "build/native/include/google/protobuf/compiler/java/java_generator_factory.h",
+        "build/native/include/google/protobuf/compiler/java/java_helpers.h",
+        "build/native/include/google/protobuf/compiler/java/java_lazy_message_field.h",
+        "build/native/include/google/protobuf/compiler/java/java_message.h",
+        "build/native/include/google/protobuf/compiler/java/java_message_field.h",
+        "build/native/include/google/protobuf/compiler/java/java_name_resolver.h",
+        "build/native/include/google/protobuf/compiler/java/java_primitive_field.h",
+        "build/native/include/google/protobuf/compiler/java/java_service.h",
+        "build/native/include/google/protobuf/compiler/java/java_shared_code_generator.h",
+        "build/native/include/google/protobuf/compiler/java/java_string_field.h",
+        "build/native/include/google/protobuf/compiler/mock_code_generator.h",
+        "build/native/include/google/protobuf/compiler/package_info.h",
+        "build/native/include/google/protobuf/compiler/parser.h",
+        "build/native/include/google/protobuf/compiler/plugin.h",
+        "build/native/include/google/protobuf/compiler/plugin.pb.h",
+        "build/native/include/google/protobuf/compiler/python/python_generator.h",
+        "build/native/include/google/protobuf/compiler/subprocess.h",
+        "build/native/include/google/protobuf/compiler/zip_writer.h",
+        "build/native/include/google/protobuf/descriptor.h",
+        "build/native/include/google/protobuf/descriptor.pb.h",
+        "build/native/include/google/protobuf/descriptor_database.h",
+        "build/native/include/google/protobuf/dynamic_message.h",
+        "build/native/include/google/protobuf/extension_set.h",
+        "build/native/include/google/protobuf/generated_enum_reflection.h",
+        "build/native/include/google/protobuf/generated_message_reflection.h",
+        "build/native/include/google/protobuf/generated_message_util.h",
+        "build/native/include/google/protobuf/io/coded_stream.h",
+        "build/native/include/google/protobuf/io/coded_stream_inl.h",
+        "build/native/include/google/protobuf/io/gzip_stream.h",
+        "build/native/include/google/protobuf/io/package_info.h",
+        "build/native/include/google/protobuf/io/printer.h",
+        "build/native/include/google/protobuf/io/strtod.h",
+        "build/native/include/google/protobuf/io/tokenizer.h",
+        "build/native/include/google/protobuf/io/zero_copy_stream.h",
+        "build/native/include/google/protobuf/io/zero_copy_stream_impl.h",
+        "build/native/include/google/protobuf/io/zero_copy_stream_impl_lite.h",
+        "build/native/include/google/protobuf/message.h",
+        "build/native/include/google/protobuf/message_lite.h",
+        "build/native/include/google/protobuf/package_info.h",
+        "build/native/include/google/protobuf/reflection_ops.h",
+        "build/native/include/google/protobuf/repeated_field.h",
+        "build/native/include/google/protobuf/service.h",
+        "build/native/include/google/protobuf/stubs/atomicops.h",
+        "build/native/include/google/protobuf/stubs/atomicops_internals_arm64_gcc.h",
+        "build/native/include/google/protobuf/stubs/atomicops_internals_arm_gcc.h",
+        "build/native/include/google/protobuf/stubs/atomicops_internals_arm_qnx.h",
+        "build/native/include/google/protobuf/stubs/atomicops_internals_atomicword_compat.h",
+        "build/native/include/google/protobuf/stubs/atomicops_internals_generic_gcc.h",
+        "build/native/include/google/protobuf/stubs/atomicops_internals_macosx.h",
+        "build/native/include/google/protobuf/stubs/atomicops_internals_mips_gcc.h",
+        "build/native/include/google/protobuf/stubs/atomicops_internals_pnacl.h",
+        "build/native/include/google/protobuf/stubs/atomicops_internals_solaris.h",
+        "build/native/include/google/protobuf/stubs/atomicops_internals_tsan.h",
+        "build/native/include/google/protobuf/stubs/atomicops_internals_x86_gcc.h",
+        "build/native/include/google/protobuf/stubs/atomicops_internals_x86_msvc.h",
+        "build/native/include/google/protobuf/stubs/common.h",
+        "build/native/include/google/protobuf/stubs/hash.h",
+        "build/native/include/google/protobuf/stubs/map_util.h",
+        "build/native/include/google/protobuf/stubs/once.h",
+        "build/native/include/google/protobuf/stubs/platform_macros.h",
+        "build/native/include/google/protobuf/stubs/shared_ptr.h",
+        "build/native/include/google/protobuf/stubs/stl_util.h",
+        "build/native/include/google/protobuf/stubs/stringprintf.h",
+        "build/native/include/google/protobuf/stubs/strutil.h",
+        "build/native/include/google/protobuf/stubs/substitute.h",
+        "build/native/include/google/protobuf/stubs/template_util.h",
+        "build/native/include/google/protobuf/stubs/type_traits.h",
+        "build/native/include/google/protobuf/test_util.h",
+        "build/native/include/google/protobuf/test_util_lite.h",
+        "build/native/include/google/protobuf/testing/file.h",
+        "build/native/include/google/protobuf/testing/googletest.h",
+        "build/native/include/google/protobuf/text_format.h",
+        "build/native/include/google/protobuf/unknown_field_set.h",
+        "build/native/include/google/protobuf/wire_format.h",
+        "build/native/include/google/protobuf/wire_format_lite.h",
+        "build/native/include/google/protobuf/wire_format_lite_inl.h",
+        "build/native/protobuf-propertiesui-2b290923-2b50-480f-9cc0-22783e25be92.xml",
+        "build/native/protobuf.targets",
+        "build/publisher-info.txt",
+        "protobuf.2.6.1.1.nupkg.sha512",
+        "protobuf.nuspec"
+      ]
+    },
+    "System.Memory/4.5.0": {
+      "sha512": "m0psCSpUxTGfvwyO0i03ajXVhgBqyXlibXz0Mo1dtKGjaHrXFLnuQ8rNBTmWRqbfRjr4eC6Wah4X5FfuFDu5og==",
+      "type": "package",
+      "path": "system.memory/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "lib/uap10.0.16300/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/netstandard1.1/System.Memory.dll",
+        "ref/netstandard1.1/System.Memory.xml",
+        "ref/netstandard2.0/System.Memory.dll",
+        "ref/netstandard2.0/System.Memory.xml",
+        "ref/uap10.0.16300/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.memory.4.5.0.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Confluent.Kafka >= 1.8.0",
+      "Protobuf >= 2.6.1.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jeeso\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\src\\CSharp\\kafka\\KafkaConsumer\\KafkaConsumer.csproj",
+      "projectName": "KafkaConsumer",
+      "projectPath": "D:\\src\\CSharp\\kafka\\KafkaConsumer\\KafkaConsumer.csproj",
+      "packagesPath": "C:\\Users\\jeeso\\.nuget\\packages\\",
+      "outputPath": "D:\\src\\CSharp\\kafka\\KafkaConsumer\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jeeso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Confluent.Kafka": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          },
+          "Protobuf": {
+            "target": "Package",
+            "version": "[2.6.1.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21458.32\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

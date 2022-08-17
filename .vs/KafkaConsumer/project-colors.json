@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2306858c-978a-4535-879e-6e1ea25e2e42": {
+      "ProjectGuid": "2306858c-978a-4535-879e-6e1ea25e2e42",
+      "DisplayName": "KafkaConsumer",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
